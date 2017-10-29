@@ -13,11 +13,11 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="spirosmakopous@mail.com",
+    password="eleos123",
     like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    comments_per_day=100,
+    tag_list=['apple', 'iphone', 'case', 'ebay' ],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -30,16 +30,8 @@ bot = InstaBot(
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
-    comment_list=[["this", "the", "your"],
-                  ["photo", "picture", "pic", "shot", "snapshot"],
-                  ["is", "looks", "feels", "is really"],
-                  ["great", "super", "good", "very good", "good", "wow",
-                   "WOW", "cool", "GREAT","magnificent", "magical",
-                   "very cool", "stylish", "beautiful", "so beautiful",
-                   "so stylish", "so professional", "lovely",
-                   "so lovely", "very lovely", "glorious","so glorious",
-                   "very glorious", "adorable", "excellent", "amazing"],
-                  [".", "..", "...", "!", "!!", "!!!"]],
+    comment_list=[["if you are looking for phone cases visit our profile"],
+                  
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
